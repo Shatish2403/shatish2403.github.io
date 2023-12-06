@@ -1,0 +1,333 @@
+@media (max-width:900px) {
+    body{
+       background-image: url(background.jpg);
+       background-size:cover;
+       background-repeat: no-repeat;
+    }
+    #header{
+        width:100%;
+        height:50px;
+        background-color: #0f0f0f;
+        text-align: center;
+        margin-top:-22px;
+    }
+    #profile-sec{
+        
+        background-color:transparent;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255); 
+        padding-top: 40vh;
+        padding-bottom: 5vh;
+        border-radius: 10%;
+        margin-top: 20px;
+    }
+    .name-txt{
+        text-align: center;
+    }
+    .name-txt h1{
+        font-size: 2rem;
+        margin-bottom: 0%;
+        padding-top: 4vh;
+        margin-top: -17vh;
+        font-family: 'Russo One', sans-serif;
+        color: #ffffff;
+        text-shadow: 0px 0px 25px #fff;
+    }
+    .name-txt quote{
+        margin-top: 0%;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 2px 2px 15px #0f0f0f;
+    
+       
+        
+    }
+        .circle,#pro-pic1{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: transparent;
+        
+        
+        
+    }
+    #pro-pic0{
+        box-shadow: -2px 2px 10px 1px  #059bff;
+        position: absolute;
+        top:20%;
+        margin-top: -100px;
+        left:50%;
+        margin-left: -100px;
+        animation-name: profilecir;
+        animation-timing-function: linear;
+        animation-duration: 3s;
+        animation-delay: 7s;
+        animation-iteration-count: infinite;
+       
+        
+        
+    }
+    #pro-pic1{
+        position: absolute;
+        left:50%;
+        margin-left: -100px;
+        top:20%;
+        margin-top: -100px;
+        background-image:url(Profileimg.JPG); 
+        background-size:cover;
+    
+    }
+    #pro-pic2{
+        box-shadow: 3px -3px 10px 2px  rgb(255, 255, 255);
+        position: absolute;
+        left:50%;
+        top:20%;
+        margin-top: -100px;
+        margin-left: -100px;
+        z-index: 1;  
+    }
+    .icons{
+        opacity: 100%;
+        height:50px;
+        width: 50px;
+        
+       
+    }
+    .icon{
+        z-index: 1;
+    }
+    #insta{
+        position: absolute;
+        top:30%;
+        left:7%;
+        animation-name: instag;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #git{
+        position:absolute;
+        top:65%;
+        left: 80%;
+        animation-name: profilecir; 
+       
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #twit{
+        position: absolute;
+        top:90%;
+        left:20%;
+        animation-name: twitg;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear;
+    }
+    #link{
+        position: absolute;
+        top:55%;
+        left:60%;
+        animation-name: linkg;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+    #auto-box{
+        display:flex;
+        flex-direction: column;
+        overflow: hidden;
+        width:90%;
+        height:80px;
+        margin:5vh auto;
+        background-color:transparent;
+        
+
+    }
+    #auto-box div{
+        width:100%;
+        height: 80px;
+        position:relative;
+        text-align: center;
+        object-fit:fill;
+        animation-name: auto-tex;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+
+    }
+    #auto-box div p{
+        width:100%;
+        height: 80px;
+        margin:0 0;
+        font-size:xx-large;
+        font-size: 1.7rem;
+        color:white;
+        text-shadow:0px 0px 10px #059bff;
+    }
+    #details{
+        width:90%;
+        margin:3vh auto;
+        margin-top: 1vh;
+        background-color: transparent;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255,.3);
+        box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255);
+        padding: 2%; 
+    }
+    fieldset{
+        width:90%;
+        margin:5vh auto;
+        border-radius: 5%;
+        border:2px solid white;
+        background-color: rgba(0, 0, 0,.7);
+        box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255);
+        
+        
+
+    }
+    legend{
+        font-size: xx-large;
+        color:whitesmoke;
+    }
+    #greet{
+        color:#ffffff;
+        margin-bottom: 0;
+    }
+    #My-words{
+        margin:0 0;
+        color:#ffffff;
+        text-align: center;
+        padding:10px;
+    }
+    #q1{
+        margin:5% 0;
+        color:#ffffff;
+        text-align: center;
+        padding:10px;
+
+    }
+    }
+
+
+
+
+    @keyframes profilecir{
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(90deg);
+        }
+        50%{
+            transform: rotate(180deg);
+        }
+        75%{
+            transform: rotate(270deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes instag {
+        25%{
+            top:20%;
+            transform: rotate(90deg);
+            }
+        50%{
+            top:80%;
+            transform: rotate(180deg);
+        }
+        
+        100%{
+            top:30%;
+            transform: rotate(360deg);
+        }
+        
+    }
+    @keyframes linkg {
+       0%{
+        top:55%;
+        left:60%;
+
+       }
+        25%{
+            top:40%;
+            left:0%
+            transform: rotate(90deg);
+            }
+        50%{
+            top:60%;
+            transform: rotate(180deg);
+        }
+        
+        75%{
+            top:80%;
+            transform: rotate(360deg);
+        }
+        90%{
+            top:0%;
+            left:80%;
+        }
+        100%{
+            top:55%;
+            left:60%;
+    
+           }
+    }
+    @keyframes twitg {
+        0%{
+            top:90%;
+            left:20%;
+           
+ 
+        }
+         25%{
+             left:0%
+             transform: rotate(-90deg);
+             }
+         50%{
+             
+             left:20%
+             transform: rotate(-180deg);
+         }
+         
+         75%{
+             left:40%;
+             transform: rotate(-360deg);
+         }
+         90%{
+            top:50%;
+            left:20%;
+         }
+         100%{
+            top:90%;
+            left:20%;
+           
+         }
+
+}
+@keyframes auto-tex {
+    0%{
+        top:40px;
+    }
+    20%{
+        
+        top:-60px;
+    }
+    40%{
+        top:-160px;
+    }
+    60%{
+        top:-220px;
+    }
+    80%{
+        top:-300px;
+    }
+    100%{
+        top:40px;
+    }
+    
+}
