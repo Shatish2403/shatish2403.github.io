@@ -1,4 +1,4 @@
-@media (max-width:900px) {
+@media (max-width:1200px) {
     body{
        background-image: url(background.jpg);
        background-size:cover;
@@ -330,4 +330,119 @@
         top:40px;
     }
     
+}
+
+@media (min-width:1200px)
+{
+body{
+    background-image: url(background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5%;
+}
+
+/* For Actual Device */
+#profile-sec{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10%;
+}
+#pro-pic1{
+    width:75%;
+    height:40vh;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5vh;
+    background-image:url(Profileimg.JPG); 
+    background-size:cover;
+
+}
+.icons{
+    margin-top: 10%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.icon{
+    width:90px;
+    height:90px;
+}
+.name-txt{
+    width:100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.name-txt h1{
+    margin-top:0;
+    font-size: 7em;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.name-txt quote{
+    font-size: 3em;
+   
+}
+#auto-box{
+    display: none;
+}
+
+
+
+/* Right Content */
+#details{
+    width:60%;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color:transparent;
+    border-radius: 5%;
+    opacity: 100%;
+
+}
+fieldset{
+    width:80%;
+    margin:auto auto;
+    border-radius: 5%;
+    border:2px solid white;
+    background-color: rgb(0, 0, 0,);
+    box-shadow: 0px 0px 10px 20px  rgba(255, 255, 255, 0.7);
+}
+legend{
+    font-size: 5rem;
+    color:whitesmoke;
+}
+#greet{
+    color:#ffffff;
+    margin-bottom: 0;
+    font-size: 3rem;
+    margin-bottom: 2%;
+    text-shadow:  1px 1px 25px #fff;
+
+}
+#My-words{
+    margin:0 0;
+    color:#ffffff;
+    font-size: 3rem;
+    text-align: center;
+    padding:10%;
+    padding-top: 0%;
+    text-shadow:  1px 1px 25px #fff;
+    padding-bottom: 0%;
+}
+#q1{
+    margin:5% 0;
+    font-size: 3rem;
+    color:#ffffff;
+    text-align: center;
+    text-shadow:  1px 1px 25px #fff;
+}
 }
