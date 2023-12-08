@@ -325,18 +325,19 @@
     }
     
 }
-}@media (min-width:1200px)
+}
+@media (min-width:1200px)
 {
 body{
     background-image: url(background.jpg);
     background-size:cover;
+    height:fit-content;
     background-repeat: no-repeat;
-    height: 100%;
     display:flex;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
-    margin-top: 5%;
+    margin-top:5%;
 }
 
 /* For Actual Device */
@@ -344,6 +345,7 @@ body{
     width:30%;
     display: flex;
     flex-direction: column;
+    height:max-content;
     background-color: #fff;
     border-radius: 10%;
 }
@@ -366,23 +368,25 @@ body{
 }
 
 .icon{
-    width:90px;
-    height:90px;
+    width:50px;
+    height:50px;
 }
 .name-txt{
-    width:100%;
-    height: auto;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-bottom: 10%;
 }
 .name-txt h1{
     margin-top:0;
-    font-size: 7em;
+    font-size: 4em;
     text-align: center;
     margin-bottom: 0%;
 }
 .name-txt quote{
-    font-size: 3em;
+    width: 70%;
+    font-size: 2em;
    
 }
 #auto-box{
@@ -393,7 +397,7 @@ body{
 
 /* Right Content */
 #details{
-    width:60%;
+    width:70%;
     margin-top: auto;
     margin-bottom: auto; 
     background-color:transparent;
@@ -410,13 +414,13 @@ fieldset{
     box-shadow: 0px 0px 10px 20px  rgba(255, 255, 255, 0.7);
 }
 legend{
-    font-size: 5rem;
+    font-size: 2rem;
     color:whitesmoke;
 }
 #greet{
     color:#ffffff;
     margin-bottom: 0;
-    font-size: 3rem;
+    font-size: 2em;
     margin-bottom: 2%;
     text-shadow:  1px 1px 25px #fff;
 
@@ -424,16 +428,16 @@ legend{
 #My-words{
     margin:0 0;
     color:#ffffff;
-    font-size: 3rem;
+    font-size: 1.5em;
     text-align: center;
-    padding:10%;
+    padding:0%;
     padding-top: 0%;
     text-shadow:  1px 1px 25px #fff;
     padding-bottom: 0%;
 }
 #q1{
     margin:5% 0;
-    font-size: 3rem;
+    font-size: 1.5em;
     color:#ffffff;
     text-align: center;
     text-shadow:  1px 1px 25px #fff;
